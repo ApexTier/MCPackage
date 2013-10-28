@@ -1,7 +1,7 @@
 @echo off
 set mcver=1.6.4
 set modname=hacktek
-set obfuscate=true
+set obfuscate=false
 
 cd ../
 runtime\bin\python\python_mcp runtime\recompile.py %*
